@@ -23,7 +23,6 @@ class TimerViewController < UIViewController
       self.view.frame.size.width, label_height
     )
     @desc_label = UILabel.alloc.initWithFrame label_frame
-    @desc_label.text = 'Play some foosball?'
     @desc_label.backgroundColor = UIColor::clearColor
     @desc_label.textAlignment = UITextAlignmentCenter
     self.view.addSubview @desc_label
